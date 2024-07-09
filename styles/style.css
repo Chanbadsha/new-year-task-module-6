@@ -289,3 +289,47 @@ header {
     z-index: 5;
     width: 300px;
 }
+
+/* Display Section */
+
+.product_display_section{
+  width: 1400px;
+  margin: auto;
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.disply_section_contents{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.display_section_subtitle{
+  color: red;
+  font-size: 24px;
+  font-weight: 500;
+}
+.display_section_title{
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+  margin-top: -5px;
+}
+.display_section_description{
+  font-size: 20px;
+  font-weight: 400;
+  color: #070211;
+  width: 50%;
+}
+.display_section_images{
+ row-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-self: stretch;
+}
+
+/* Newsletter section */
+
