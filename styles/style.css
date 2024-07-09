@@ -30,7 +30,7 @@ li {
   height: 60px;
   border: none;
   border-radius: 8px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -332,4 +332,124 @@ header {
 }
 
 /* Newsletter section */
+.newsletter_section{
+  background-color: #FFF2F2;
+  width: 1400px;
+  margin: auto;
+  padding: 80px 212px;
+  text-align: center;
+}
 
+.newsletter_contents{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 42px;
+
+
+}
+.newsletter_img{
+  width: 150px;
+  height: 150px;
+}
+.newsletter_content_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.newsletter_title{
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+}
+.newsletter_description{
+  width: 80%;
+  font-size: 20px;
+  color: #070211;
+  opacity: 60%;
+}
+.newsletter_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter_email{
+  width: 548px;
+  height: 72px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  -webkit-border-radius: 50px 0px 0px 50px;
+  -moz-border-radius: 50px 0px 0px 50px;
+  -ms-border-radius: 50px 0px 0px 50px;
+  -o-border-radius: 50px 0px 0px 50px;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: #070211;
+}
+.newsletter_btn{
+  width: 210px;
+  height: 72px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  -webkit-border-radius: 0px 50px 50px 0px;
+  -moz-border-radius: 0px 50px 50px 0px;
+  -ms-border-radius: 0px 50px 50px 0px;
+  -o-border-radius: 0px 50px 50px 0px;
+  /* margin-left: -5px; */
+}
+
+/* Footer Section */
+footer{
+margin-top: 120px;
+background-color: #060211;
+
+}
+.footer_section{
+width: 1400px;
+margin: auto;
+padding: 120px 0px;
+display: flex;
+color: white;
+flex-direction: column;
+height: 600px;
+gap: 50px;
+}
+.footer_address_section{
+display: flex;
+justify-content: space-between;
+}
+.footer_address{
+  font-size: 20px;
+  font-weight: 500;
+  width: 30%;
+  line-height: 1.5;
+}
+.p-tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_icon_section{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.footer_copyright_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+
+}
+.aut{
+  color: #fd6d0a;
+  font-style: italic;
+  text-transform: uppercase;
+}
